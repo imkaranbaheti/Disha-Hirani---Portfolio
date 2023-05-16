@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+.banner{
+    background-color: rgb(241,150,47);
+    height: 79vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: #f3b184;
+}
+
+nav{
+    display: inline-block;
+    margin: 7px 6px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.get-quote{
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 14px;
+    width: 34%;
+    height: 79%;
+    padding: 24px 24px;
+}
+
+.get-quote h3{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+.services{
+    margin: 26px;
+    padding: 9px;
+    align-items: center;
+}
+
+.services div{
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 14px;
+    margin: 19px;
+    border: 1px solid black;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1);
+    height: 86px;
+    width: 49%;
+    padding: 15px 20px;
+}
+
+/* .digital-marketing .design .tech-solutions .media .brand-strategy .influencer-marketing{
+    padding: 20px;
+} */
+
+.services h3{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.services .services-p{
+    color: rgb(241,150,47);
+    /* font-size: 17px; */
+}
